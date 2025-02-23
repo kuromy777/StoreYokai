@@ -28,4 +28,4 @@ function Administrador() {
     };
     return (_jsxs("div", { className: "content", children: [_jsx("h2", { children: "Gesti\u00F3n de usuarios" }), _jsx("div", { className: "usuarios-grid", children: usuarios.map(usuario => (_jsxs("div", { className: "perfil", onClick: () => handlePerfilClick(usuario.id), children: [_jsx("img", { src: usuario.imagen, alt: usuario.nombre, className: "perfil-img" }), _jsx("h3", { children: usuario.nombre })] }, usuario.id))) }), _jsx("h2", { children: "Gestionar inventario" }), _jsx("button", { className: "inventory-button", onClick: handleInventarioClick, children: "Abrir inventario" }), _jsx(Link, { to: "/", children: _jsx("button", { className: "back-button", children: "Regresar" }) })] }));
 }
-export default Administrador
+export default Administrador;
